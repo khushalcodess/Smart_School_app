@@ -4,7 +4,6 @@ build/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
-pubspec.lock        # optional, but recommended to keep for apps
 
 # Android
 android/.gradle/
@@ -22,8 +21,6 @@ ios/Flutter/Flutter.podspec
 
 # Environment & Keys
 .env
-google-services.json     # agar sensitive hai
-GoogleService-Info.plist # agar sensitive hai
 
 # IDE
 .idea/
@@ -33,3 +30,8 @@ GoogleService-Info.plist # agar sensitive hai
 # OS
 .DS_Store
 Thumbs.db
+
+# Compiled files
+*.exe
+*.o
+*.obj
